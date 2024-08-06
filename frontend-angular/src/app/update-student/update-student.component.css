@@ -1,0 +1,119 @@
+/* Styles globaux */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    border-bottom: 2px solid #007bff;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-link i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Titre principal */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #343a40;
+}
+
+/* Card */
+.card {
+    border-radius: 15px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* Formulaire */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+/* Styles pour les boutons */
+.btn {
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #ffffff;
+}
+
+.btn-success i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color: #ffffff;
+}
+
+/* Styles pour le conteneur de mise à jour */
+.update-student-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.update-student-container .card {
+    margin-top: 20px;
+}
+
+.update-student-container .card-header {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.update-student-container .card-body {
+    padding: 30px;
+}
